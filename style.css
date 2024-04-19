@@ -1,0 +1,51 @@
+html {
+    background: url(background.jpg);
+    background-position: center no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contenitore {
+    margin: auto;
+    width: 55%;
+    padding: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.contenitore img {
+    width: 165px;
+    margin: auto;
+    display: block;
+}
+h2 {
+    color: #14d728;
+}
+nav {
+    background-color: #14d728;
+    padding: 1%
+}
+.input, .comment {
+    text-align: center;
+}
+main {
+    color: white;
+}
+p.carica:before {
+        content: "\21A6";
+}
+div:empty {
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 0%;
+}
+.nome {
+    font-size: larger;
+}
+div.utente1 {
+    width: 30%; background: orange;
+}
+div.utente2 {
+    width: 60%; background: rgb(35, 191, 35);
+}
+div.utente3 {
+    width: 20%; background: red;
+}
